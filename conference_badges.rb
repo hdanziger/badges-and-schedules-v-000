@@ -7,7 +7,7 @@ end
 
 
 def batch_badge_creator(speakers)
-  speakers.collect do |attendees|
-    puts "Hello, my name is #{attendees}."
+  speakers.collect do |attendee|
+    "Hello, my name is #{attendee}."
   end
 end
